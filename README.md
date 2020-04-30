@@ -42,7 +42,7 @@ __To setup the demo__
 1. Cd into the cloned repo and run `lando start`.
 1. Once Lando has finished spinning up the environment, run `lando composer install`.
 1. Extract `dumps/files.tar.gz` into `web/sites/default`.
-1. Extract `dumps/database.sql` and run `lando db-import dataase.sql`.
+1. Extract `dumps/database.sql` and run `lando db-import database.sql`.
 1. Configure your `settings.php` or `local.settings.php` to include the following:
     ```
     $databases['default']['default'] = array(
